@@ -1,4 +1,5 @@
 def remove_duplicate_elements(lst:list)->list|str:
+    """Function to remove duplicate elements from the list!"""
     if not lst:
         return f"{List} is empty"
     if len(lst)==1:
