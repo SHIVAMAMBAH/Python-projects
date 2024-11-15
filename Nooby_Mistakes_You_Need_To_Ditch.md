@@ -45,3 +45,12 @@ def append(n, l=None):
 l1 = append(1) # [1]
 l2 = append(2) # [2]
 ```
+6. Do not use this
+```
+type(p) == tuple # Liskov substitution violation
+```
+use this:
+```
+isInstance(p, tuple)
+```
+7. Do not use == for checking None, True, and False. Use is keyword.
