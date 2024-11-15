@@ -1,4 +1,4 @@
-1. use f strings than manual string format.
+1. Use f strings than manual string format.
 2. Do not open file like this
 ```
 f = open(filename,"w)
@@ -25,4 +25,23 @@ instead use (most resources that need to be closed have their own context manage
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
   s.connect((host, port))
   s.sendal(b'hello,world')
+```
+4. Do nor use bare except keyword
+5. Do not use this:
+```
+def append(n, l=[]):
+  l.append(n)
+  return l
+l1 = append(1) # [1]
+l2 = append(2) # [1,2]
+```
+Use like this:
+```
+def append(n, l=None):
+  if l is None:
+    l = []
+  l.append(n)
+  return l
+l1 = append(1) # [1]
+l2 = append(2) # [2]
 ```
