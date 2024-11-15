@@ -1,4 +1,5 @@
 def reverse_string(string:str)->str:
+    """To reverse a string"""
     return string[::-1]
 
 if __name__=="__main__":
