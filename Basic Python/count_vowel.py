@@ -1,4 +1,5 @@
 def vowel_count(string:str)->str:
+    """To count the number of vowels in a string"""
     vowels = ['a','e','i','o','u']
     
     count = sum(1 for char in string.lower() if char in vowels)
