@@ -1,4 +1,5 @@
 def sum_of_digits_of_number(number:int)->int:
+    """Function to  find the sum of digits of a number"""
     result = 0
     while number!=0:
         result+=number%10
