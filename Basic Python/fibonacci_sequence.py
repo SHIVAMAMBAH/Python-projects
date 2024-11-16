@@ -16,7 +16,7 @@ def fibonacci(number:int)->str|list:
 
 if __name__ == "__main__":
     try:
-        number = int(input("Enter a number : "))
+        number:int = int(input("Enter a number : "))
         print(fibonacci(number))
     except ValueError:
         print("Invalid Input")
