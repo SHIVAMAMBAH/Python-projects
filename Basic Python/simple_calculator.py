@@ -15,7 +15,7 @@ def simple_calculator(operand1:float,operator:str,operand2:float)->float:
             raise ValueError(f"Unsupported operator : {operator}")
 
 
-result = 0.0
+result:float = 0.0
 
 if __name__ == "__main__":
     try : 
