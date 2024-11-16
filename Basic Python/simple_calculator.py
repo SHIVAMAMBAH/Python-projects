@@ -20,13 +20,13 @@ result = 0.0
 if __name__ == "__main__":
     try : 
         while True : 
-            operand1 = float(input("Enter number : "))
+            operand1:float = float(input("Enter number : "))
     
-            operator = input("Enter the operator(+,-,/,* or 'q' to quit) : ")
+            operator:str = input("Enter the operator(+,-,/,* or 'q' to quit) : ")
             if(operator=="q"):
                 break
     
-            operand2 = float(input("Enter number : "))
+            operand2:float = float(input("Enter number : "))
 
             try:
                 result+= simple_calculator(operand1,operator,operand2)
