@@ -7,7 +7,7 @@ def is_palindrom(string:str)->str:
 
 if __name__ == "__main__":
     try:
-        string = input("Enter a string :").strip()
+        string:str = input("Enter a string :").strip()
         if is_palindrom(string):
             print(f"{string} is a palindrom")
         else:
