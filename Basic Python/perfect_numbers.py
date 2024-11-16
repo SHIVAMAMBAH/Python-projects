@@ -12,7 +12,7 @@ def perfect_number(number:int)->str:
 
 if __name__ == "__main__":
     try:
-        number = int(input("Enter the number : "))
+        number:int = int(input("Enter the number : "))
         print(perfect_number(number))
     except ValueError:
         print("Invalid Input")
