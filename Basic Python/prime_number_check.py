@@ -9,7 +9,7 @@ def is_prime(number:int)->str|bool:
     if number % 2 == 0:
         return False
     
-    sqrt_number = int(math.sqrt(number))
+    sqrt_number:int = int(math.sqrt(number))
     for i in range(3,sqrt_number+1,2):
         if number%i==0:
             return f"{number} is not prime"
@@ -18,7 +18,7 @@ def is_prime(number:int)->str|bool:
 
 if __name__ == "__main__":
     try:
-        number = int(input("Enter a number : "))
+        number:int = int(input("Enter a number : "))
         print(is_prime(number))
     except ValueError:
         print("Invalid Input")
