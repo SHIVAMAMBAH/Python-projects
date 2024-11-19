@@ -1,7 +1,7 @@
 import math
 
 def is_prime(number:int)->str|bool:
-    """Checks if a number is prime."""
+    """Checks if a number is prime or not."""
     if number <= 1:
         return False
     if number in (2, 3):
