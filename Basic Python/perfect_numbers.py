@@ -1,4 +1,5 @@
 def perfect_number(number:int)->str:
+    """Checks if a given number is perfect number or not."""
     if number <= 1:
         return f"{number} is not a perfect number."
     
