@@ -1,1 +1,1 @@
-This folder contains simple python
+This folder contains simple python programs
