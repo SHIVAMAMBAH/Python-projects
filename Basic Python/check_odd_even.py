@@ -1,5 +1,5 @@
 def check_odd_even(number: int)->str:
-    """Check if a number is odd or not using bitwise operations."""
+    """Checks if a number is odd or not using bitwise operations."""
     return f"{number} is {'odd' if number&1 else 'even'}"
 
 if __name__ == "__main__":
