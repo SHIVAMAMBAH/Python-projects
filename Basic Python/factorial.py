@@ -1,5 +1,5 @@
 def factorial(number:int)->str|int:
-    """Calculates the factorial of non-negaive numbers."""
+    """Calculates the factorial of positive numbers."""
     if number<0:
         return "Factorial of negative numbers don't exist."
     if number in (0,1):
