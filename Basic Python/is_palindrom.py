@@ -1,5 +1,5 @@
 def is_palindrom(string:str)->str:
-    """Checks if the given string or numeric string is a palindrome."""
+    """Checks if the given string or numeric string is a palindrome or not."""
     if string.isdigit():
         return string == string[::-1]
     
