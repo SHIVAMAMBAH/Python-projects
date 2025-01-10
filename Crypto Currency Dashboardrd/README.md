@@ -28,4 +28,3 @@ End time in milliseconds to fetch data from.
 
 ## Usage in the Project
 In the Crypto Currency Dashboard, this API is used to retrieve and display hidtorical price data for various crypto Currencies. The data is processed and visualised in the form of candle stick charts. allowing user to analyze market trends over different time periods.
-
